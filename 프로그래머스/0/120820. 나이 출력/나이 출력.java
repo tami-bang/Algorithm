@@ -1,6 +1,7 @@
 class Solution {
     public int solution(int age) {
-        int answer = 2022 - (age - 1) ;
+        int year = 2022;
+        int answer = year - age + 1; // 태어난 해는 1살이므로 +1
         return answer;
     }
 }
